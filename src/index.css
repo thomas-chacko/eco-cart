@@ -60,4 +60,105 @@ a:focus {
 /* Smooth transitions */
 * {
     transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}/* H
+exagon Shape Styles */
+.hexagon-container {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.hexagon {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hexagon-inner {
+  width: 85%;
+  height: 85%;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.hexagon-small {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* Morphing Animation */
+@keyframes morph {
+  0%, 100% { 
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform: rotate(0deg);
+  }
+  25% { 
+    clip-path: polygon(30% 0%, 100% 20%, 100% 80%, 70% 100%, 0% 80%, 0% 20%);
+    transform: rotate(2deg);
+  }
+  50% { 
+    clip-path: polygon(50% 0%, 90% 30%, 90% 70%, 50% 100%, 10% 70%, 10% 30%);
+    transform: rotate(-1deg);
+  }
+  75% { 
+    clip-path: polygon(70% 0%, 100% 30%, 100% 70%, 30% 100%, 0% 70%, 0% 30%);
+    transform: rotate(1deg);
+  }
+}
+
+.animate-morph {
+  animation: morph 8s ease-in-out infinite;
+}
+
+/* Orbiting Animation */
+@keyframes orbit {
+  0% { 
+    transform: rotate(0deg) translateX(140px) rotate(0deg);
+  }
+  100% { 
+    transform: rotate(360deg) translateX(140px) rotate(-360deg);
+  }
+}
+
+@keyframes orbit-reverse {
+  0% { 
+    transform: rotate(0deg) translateX(120px) rotate(0deg);
+  }
+  100% { 
+    transform: rotate(-360deg) translateX(120px) rotate(360deg);
+  }
+}
+
+.animate-orbit {
+  animation: orbit 8s linear infinite;
+}
+
+.animate-orbit-reverse {
+  animation: orbit-reverse 12s linear infinite;
+}
+
+/* Enhanced Float Animation */
+@keyframes float-enhanced {
+  0%, 100% { 
+    transform: translateY(0px) rotate(0deg); 
+  }
+  33% { 
+    transform: translateY(-15px) rotate(2deg); 
+  }
+  66% { 
+    transform: translateY(-5px) rotate(-1deg); 
+  }
+}
+
+.animate-float {
+  animation: float-enhanced 4s ease-in-out infinite;
 }

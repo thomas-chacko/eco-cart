@@ -39,22 +39,9 @@ const Hero = () => {
                             </div>
                         </div>
 
-                        {/* Right Content - Hero Image */}
+                        {/* Right Content - Empty for now */}
                         <div className="relative">
-                            <div className="relative z-10 bg-gradient-to-br from-green-400 to-emerald-500 rounded-3xl p-8 shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
-                                <div className="bg-white rounded-2xl p-6 text-center">
-                                    <div className="w-32 h-32 mx-auto mb-4 bg-gradient-to-br from-green-100 to-emerald-100 rounded-full flex items-center justify-center">
-                                        <svg className="w-16 h-16 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                                            <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" />
-                                        </svg>
-                                    </div>
-                                    <h3 className="text-2xl font-bold text-gray-800 mb-2">100% Eco-Friendly</h3>
-                                    <p className="text-gray-600">Sustainable products for a greener future</p>
-                                </div>
-                            </div>
-                            {/* Decorative elements */}
-                            <div className="absolute -top-4 -right-4 w-24 h-24 bg-green-300 rounded-full opacity-20 animate-pulse"></div>
-                            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-emerald-300 rounded-full opacity-15 animate-pulse delay-1000"></div>
+
                         </div>
                     </div>
                 </div>
