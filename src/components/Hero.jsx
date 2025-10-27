@@ -21,16 +21,16 @@ const Hero = () => {
                         {/* Left Content */}
                         <div className="text-center lg:text-left">
                             <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                                Shop
+                                Eco Care for
                                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-300">
-                                    Sustainably
+                                    Everyday Life
                                 </span>
                             </h1>
                             <p className="text-xl text-green-100 mb-8 leading-relaxed max-w-lg">
                                 Discover eco-friendly products that make a difference. Join the green revolution and shop with purpose for a better tomorrow.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                                <button className="bg-gradient-to-r from-green-400 to-emerald-500 text-white px-8 py-4 rounded-full hover:from-green-500 hover:to-emerald-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 font-semibold text-lg cursor-pointer">
+                                <button className="bg-gradient-to-r from-green-400 to-emerald-500 text-white px-8 py-4 rounded-full hover:from-green-500 hover:to-emerald-600 transition-all duration-300 shadow-lg hover:shadow-xl transform font-semibold text-lg cursor-pointer">
                                     Explore Products
                                 </button>
                                 <button className="border-2 border-green-400 text-green-400 px-8 py-4 rounded-full hover:bg-green-400 hover:text-white transition-all duration-300 font-semibold text-lg cursor-pointer">
