@@ -1,3 +1,4 @@
+import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
 import Products from './components/Products'
@@ -7,6 +8,7 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-emerald-50">
+      <Header />
       <Hero />
       <About />
       <Products />
