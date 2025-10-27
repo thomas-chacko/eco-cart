@@ -22,7 +22,7 @@ const Hero = () => {
                 <div className="flex items-center justify-between max-w-7xl mx-auto">
                     {/* Logo */}
                     <div className="flex items-center">
-                        <div className="w-16 h-16">
+                        <div className="w-36 h-20">
                             <img
                                 src={logoImage}
                                 alt="Logo"
