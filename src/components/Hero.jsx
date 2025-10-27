@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import image from "../assets/banner.png"
 
 const Hero = () => {
     useEffect(() => {
@@ -41,7 +42,7 @@ const Hero = () => {
 
                         {/* Right Content - Empty for now */}
                         <div className="relative">
-
+                            <img src={image} alt="image" className='w-fit' />
                         </div>
                     </div>
                 </div>

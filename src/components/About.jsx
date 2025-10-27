@@ -3,7 +3,7 @@ const About = () => {
     {
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z"/>
+          <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" />
         </svg>
       ),
       title: "100% Sustainable",
@@ -12,7 +12,7 @@ const About = () => {
     {
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
         </svg>
       ),
       title: "Quality Assured",
@@ -21,7 +21,7 @@ const About = () => {
     {
       icon: (
         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
         </svg>
       ),
       title: "Carbon Neutral",
@@ -38,9 +38,7 @@ const About = () => {
             About <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-emerald-600">EcoCart</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We're on a mission to make sustainable shopping accessible to everyone. 
-            Our carefully curated collection of eco-friendly products helps you live 
-            a greener lifestyle without compromising on quality or style.
+            At Ecocart, we’re committed to reducing plastic waste and inspiring eco-friendly choices for a healthier, greener planet.
           </p>
         </div>
 
@@ -52,25 +50,20 @@ const About = () => {
               Making Sustainability Simple
             </h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Founded in 2024, EcoCart emerged from a simple belief: that shopping for 
-              sustainable products shouldn't be complicated or expensive. We partner 
-              with ethical manufacturers and local artisans to bring you products that 
-              are good for you and good for the planet.
+              We’re dedicated to providing high-quality, sustainable products that are safe for you and gentle on the Earth. From everyday essentials to lifestyle accessories, each item in our collection is thoughtfully designed to minimize environmental impact while promoting mindful living.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Every item in our collection is carefully vetted for environmental impact, 
-              quality, and ethical production practices. When you shop with us, you're 
-              not just buying a product – you're investing in a sustainable future.
+              Our mission is to make eco-friendly living simple, affordable, and accessible to everyone. We aim to encourage small changes that lead to a big difference — because every eco choice matters.
             </p>
-            
+
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-600 mb-2">10K+</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">100+</div>
                 <div className="text-sm text-gray-600">Happy Customers</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-600 mb-2">500+</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">10+</div>
                 <div className="text-sm text-gray-600">Eco Products</div>
               </div>
               <div className="text-center">
@@ -86,13 +79,12 @@ const About = () => {
               <div className="bg-white rounded-2xl p-8 text-center">
                 <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-green-400 to-emerald-500 rounded-full flex items-center justify-center">
                   <svg className="w-16 h-16 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z"/>
+                    <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z" />
                   </svg>
                 </div>
-                <h4 className="text-2xl font-bold text-gray-800 mb-4">Our Mission</h4>
+                <h4 className="text-2xl font-bold text-gray-800 mb-4">Our Goal</h4>
                 <p className="text-gray-600">
-                  To create a world where sustainable choices are the easiest choices, 
-                  making eco-friendly living accessible to everyone.
+                  To reduce plastic usage, promote sustainable alternatives, and create awareness for a cleaner, healthier future.
                 </p>
               </div>
             </div>
