@@ -5,7 +5,7 @@ const Hero = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     useEffect(() => {
-        // GSAP animation can be added here
+        // Component initialization
     }, [])
 
     return (
