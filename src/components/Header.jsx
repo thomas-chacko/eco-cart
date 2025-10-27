@@ -127,9 +127,6 @@ const Header = () => {
                         >
                             Contact
                         </a>
-                        <button className="w-full bg-gradient-to-r from-green-400 to-emerald-500 text-white px-6 py-3 rounded-full hover:from-green-500 hover:to-emerald-600 transition-all duration-300 transform hover:scale-105 cursor-pointer">
-                            Shop Now
-                        </button>
                     </div>
                 </div>
             </nav>
