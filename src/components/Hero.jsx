@@ -40,9 +40,16 @@ const Hero = () => {
                             </div>
                         </div>
 
-                        {/* Right Content - Empty for now */}
-                        <div className="relative">
-                            <img src={image} alt="image" className='w-fit' />
+                        {/* Right Content - Hero Banner Image */}
+                        <div className="relative flex items-center justify-center h-full">
+                            <div className="relative">
+                                <img
+                                    src={image}
+                                    alt="Eco-friendly bamboo products"
+                                    className="w-full max-w-md h-auto max-h-96 object-contain rounded-2xl"
+                                    style={{ filter: 'drop-shadow(0 10px 25px rgba(0, 0, 0, 0.4))' }}
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
