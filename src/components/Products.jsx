@@ -64,8 +64,7 @@ const Products = () => {
       originalPrice: "$28.99",
       image: "🍵",
       rating: 4.8,
-      reviews: 203,
-      badge: "Premium"
+      reviews: 203
     },
     {
       id: 6,
@@ -75,8 +74,7 @@ const Products = () => {
       originalPrice: "$42.99",
       image: "🧽",
       rating: 4.5,
-      reviews: 67,
-      badge: "Bundle"
+      reviews: 67
     }
   ]
 
@@ -118,7 +116,7 @@ const Products = () => {
         {/* Products Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {filteredProducts.map((product) => (
-            <div key={product.id} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
+            <div key={product.id} className="relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group">
               {/* Product Badge */}
               {product.badge && (
                 <div className="absolute top-4 left-4 z-10">

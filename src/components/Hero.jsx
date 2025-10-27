@@ -21,15 +21,14 @@ const Hero = () => {
             <nav className="relative z-50 px-6 py-4 lg:px-12">
                 <div className="flex items-center justify-between max-w-7xl mx-auto">
                     {/* Logo */}
-                    <div className="flex items-center space-x-3">
-                        <div className="w-12 h-12 rounded-full overflow-hidden shadow-lg bg-white p-1">
-                            <img 
-                                src={logoImage} 
-                                alt="EcoCart Logo" 
-                                className="w-full h-full object-contain rounded-full"
+                    <div className="flex items-center">
+                        <div className="w-16 h-16">
+                            <img
+                                src={logoImage}
+                                alt="Logo"
+                                className="w-full h-full object-contain"
                             />
                         </div>
-                        <span className="text-2xl font-bold text-white">EcoCart</span>
                     </div>
 
                     {/* Desktop Navigation */}
@@ -68,6 +67,8 @@ const Hero = () => {
                         </div>
                     </div>
                 )}
+
+
             </nav>
 
             {/* Hero Content */}
