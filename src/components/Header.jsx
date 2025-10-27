@@ -82,9 +82,6 @@ const Header = () => {
                             Contact
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-300 transition-all duration-300 group-hover:w-full"></span>
                         </a>
-                        <button className="bg-gradient-to-r from-green-400 to-emerald-500 text-white px-6 py-2 rounded-full hover:from-green-500 hover:to-emerald-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 hover:scale-105 cursor-pointer">
-                            Shop Now
-                        </button>
                     </div>
 
                     {/* Mobile Menu Button */}
